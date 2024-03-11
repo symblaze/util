@@ -9,7 +9,7 @@ $ruleSet = [
     '@Symfony' => true,
     // > PHPUnit
     'php_unit_method_casing' => ['case' => 'snake_case'],
-    'php_unit_test_annotation' => ['style' => 'annotation'],
+    'php_unit_test_annotation' => ['style' => 'prefix'],
     // > Strict
     'declare_strict_types' => true,
     // > Operator
