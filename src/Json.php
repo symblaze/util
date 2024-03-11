@@ -28,6 +28,9 @@ final class Json
         return self::encode($data, JSON_FORCE_OBJECT);
     }
 
+    /**
+     * Encode the data with special floats (NAN, INF, -INF) as strings.
+     */
     public static function encodeWithSpecialFloats(array $data): string
     {
         array_walk_recursive($data, static function (mixed &$value): void {
@@ -39,6 +42,9 @@ final class Json
         return self::encode($data);
     }
 
+    /**
+     * A safe wrapper around json_decode.
+     */
     public static function decode(string $string, int $flags = 0): array
     {
         try {
@@ -51,6 +57,9 @@ final class Json
         }
     }
 
+    /**
+     * Decode data with special floats (NAN, INF, -INF) back to their original values.
+     */
     public static function decodeWithSpecialFloats(string $input): array
     {
         $data = self::decode($input);
