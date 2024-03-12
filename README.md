@@ -4,14 +4,14 @@ This is a collection of utility functions that we use in our projects.
 
 <div align="center">
 
-<img alt="Packagist PHP Version Support" src="https://img.shields.io/packagist/php-v/symblaze/util">
+<img alt="Packagist PHP Version Support" src="https://img.shields.io/packagist/php-v/symblaze/util" />
 
 <a href="https://packagist.org/packages/symblaze/util">
-    <img src="https://img.shields.io/packagist/v/symblaze/util.svg?style=flat-square" alt="Latest Version on Packagist">
+    <img src="https://img.shields.io/packagist/v/symblaze/util.svg?style=flat-square" alt="Latest Version on Packagist" />
 </a>
 
 <a href="https://packagist.org/packages/symblaze/util/stats">
-    <img src="https://img.shields.io/packagist/dt/symblaze/util.svg?style=flat-square" alt="Total Downloads">
+    <img src="https://img.shields.io/packagist/dt/symblaze/util.svg?style=flat-square" alt="Total Downloads" />
 </a>
 
 </div>
